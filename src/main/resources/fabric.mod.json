@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "iceboatf",
+  "version": "${version}",
+  "name": "IceBoatF",
+  "description": "Disables ice boat speed bonus",
+  "license": "UNLICENSE",
+  "authors": [
+    "StoneLabs <levyehrstein@googlemail.com>"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/"
+  },
+  "icon": "assets/iceboatf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [],
+    "server": [
+      "net.stone_labs.iceboatf.IceBoatF"
+    ]
+  },
+  "mixins": [
+    "iceboatf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*"
+  }
+}
