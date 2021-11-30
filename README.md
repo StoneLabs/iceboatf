@@ -1,6 +1,10 @@
+<img alt="GitHub Workflow Status (branch)" src="https://img.shields.io/github/workflow/status/StoneLabs/iceboatf/build/master?label=master&style=flat-square"> <img alt="GitHub issues" src="https://img.shields.io/github/issues/StoneLabs/iceboatf?style=flat-square"> <img alt="Version" src="https://img.shields.io/badge/Minecraft%20Version-1.18-blue?style=flat-square">
+
 # IceBoatF
 
 Server side fabric mod to disable the increased speed of boats on ice.
+
+Use gamerule `disableIceBoats` to toggle the mod.
 
 ## Download
 
